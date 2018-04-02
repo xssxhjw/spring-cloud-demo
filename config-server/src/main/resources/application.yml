@@ -9,6 +9,9 @@ spring:
           search-paths: config-repo
 server:
   port: 8765
+management:
+  security:
+     enabled: false
 #eureka:
 #  client:
 #     serviceUrl:

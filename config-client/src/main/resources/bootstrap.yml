@@ -3,6 +3,7 @@ spring:
     config:
       profile: dev
       name: config
+      fail-fast: true
       discovery:
         serviceId: config-server
         enabled: true
